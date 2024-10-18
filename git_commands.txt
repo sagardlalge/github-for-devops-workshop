@@ -1,0 +1,10 @@
+  git status  //check status
+  
+   git add testing.py //send to staged 
+    git status
+    git rm --cache testing.py//versioning to recover
+    git status
+    git add testing.py//send to staged
+    git status
+    git commit -m "added testing files"//commit to tracked
+    git status
